@@ -8,7 +8,7 @@ We currently support browser-based authentication flows.
 
 Currencycloud is an FCA-registered Account Servicing Payment Service Provider (ASPSP) who provides access to these services via the Open Banking standard.
 
-You can find out more about Open Banking at [What is Open Banking](https://www.openbanking.org.uk/customers/what-is-open-banking/)
+You can find out more about Open Banking at [What is Open Banking](https://www.openbanking.org.uk/customers/what-is-open-banking/).
 
 ## API Documentation
 
