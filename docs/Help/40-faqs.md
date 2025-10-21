@@ -45,13 +45,23 @@ This will then enable you to access our APIs through the Currencycloud Developer
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
 
-Yes, Currencycloud has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in January 2025.
+Yes, Currencycloud has a test facility [Sandbox](./docs/40-sandbox.md) available through our Developer Portal. This will be made available in January 2025.
 
-Check out our [../20-getting-started.md](Getting Started) guide for a step-by-step guide on how to start testing with our Sandbox APIs.
+Check out our [Getting Started](./docs/20-getting-started.md) guide for a step-by-step guide on how to start testing with our Sandbox APIs.
 
 ### Where are the specifications you have used to build your current APIs?
 
-There are full specifications provided by OBL available on their [https://openbanking.atlassian.net/wiki/spaces/DZ/overview](Developer Zone) from which we’ve built our APIs.
+There are full specifications provided by OBL available on their [Developer Zone](https://openbanking.atlassian.net/wiki/spaces/DZ/overview) from which we’ve built our APIs.
+
+### Does our Open Banking interface support dynamic linking?
+
+Yes, our payment flows implement dynamic linking in accordance with RTS Article 5 under the EU Regulatory Technical Standards (RTS) on Strong Customer Authentication (SCA).
+Dynamic linking ensures that the authentication of a payment is securely bound to the transaction amount and the payee.
+
+Specifically:
+* The payer is shown the amount and payee during the authentication process
+* The authentication code generated is unique to those transaction details
+* Any modification to the amount or payee invalidates the authentication, preventing unauthorised changes
 
 ## Response Codes
 

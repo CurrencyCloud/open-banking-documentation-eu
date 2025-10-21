@@ -17,3 +17,21 @@ A Modified Customer Interface (MCI) fallback mechanism, also known as a continge
 * Currencycloud Direct Base URL: https://direct.currencycloud.com
 
 As a TTP, you'll then make requests via https://tccl-eu.mci.uk-hub-prod.ozoneapi.co.uk/ ensuring you include your QWAC certificate in the request.
+
+## Invocation Conditions
+The MCI fallback interface should be used only when:
+
+* The primary Open Banking API is unavailable or non-functional
+* The TPP is unable to access required services via the standard API
+* The TPP holds a valid QWAC certificate listed in the OBIE Directory
+
+## Error Handling
+
+* **Invalid QWAC Certificate**: The request will be rejected with a 401 Unauthorized error
+* **Service Unavailable**: A 503 Service Unavailable response will be returned if the fallback interface is temporarily down
+* **Malformed Requests**: A 400 Bad Request will be returned for improperly structured requests or missing required headers
+
+## Support Contacts
+For assistance with MCI fallback access or troubleshooting:
+
+- **Email**: [support@currencycloud.com](mailto:support@currencycloud.com)
