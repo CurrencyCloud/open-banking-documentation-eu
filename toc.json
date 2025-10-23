@@ -22,13 +22,18 @@
     },
     {
       "type": "item",
+      "title": "Planned Updates",
+      "uri": "docs/50-planned-updates.md"
+    },
+    {
+      "type": "item",
       "title": "MCI Fallback",
       "uri": "docs/41-mci-fallback.md"
     },
     {
       "type": "item",
-      "title": "Planned Updates",
-      "uri": "docs/50-planned-updates.md"
+      "title": "Performance & Availability Reports",
+      "uri": "docs/51-reports.md"
     },
     {
       "type": "divider"
