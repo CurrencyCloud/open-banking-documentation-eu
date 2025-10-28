@@ -13,10 +13,10 @@ A Modified Customer Interface (MCI) fallback mechanism, also known as a continge
 
 ## Configuration
 
-* TPP Facing URL: https://tccl-eu.mci.uk-hub-prod.ozoneapi.co.uk
-* Currencycloud Direct Base URL: https://direct.currencycloud.com
+* TPP Facing URL: `https://tccl-eu.mci.uk-hub-prod.ozoneapi.co.uk`
+* Currencycloud Direct Base URL: `https://direct.currencycloud.com`
 
-As a TTP, you'll then make requests via https://tccl-eu.mci.uk-hub-prod.ozoneapi.co.uk/ ensuring you include your QWAC certificate in the request.
+As a TTP, you'll then make requests via `https://tccl-eu.mci.uk-hub-prod.ozoneapi.co.uk` ensuring you include your QWAC certificate in the request.
 
 ## Invocation Conditions
 The MCI fallback interface should be used only when:
