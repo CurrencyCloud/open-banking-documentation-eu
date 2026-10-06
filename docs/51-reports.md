@@ -8,3 +8,4 @@ These reports compare how Currencycloud's Open Banking Interface performs in rel
 | 2025-10-01 to 2025-12-31 | [Link](/assets/reports/report-2025-10-01-2025-12-31.csv)    |
 | 2026-01-01 to 2026-03-31 | [Link](/assets/reports/report-2026-01-01-2026-03-31-eu.csv) |
 | 2026-04-01 to 2026-06-30 | [Link](/assets/reports/report-2026-04-01-2026-06-30-eu.csv) |
+| 2026-07-01 to 2026-09-30 | [Link](/assets/reports/report-2026-07-01-2026-09-30-eu.csv) |
